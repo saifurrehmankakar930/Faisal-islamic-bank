@@ -41,7 +41,7 @@ body{
 .nav-two{
     width: 100%;
    height: 80px;
-   background-color: cadetblue;
+   background-color: #ffffff;
    border: 2px solid black;
    display: flex;
    justify-content: space-around;
@@ -55,11 +55,35 @@ body{
 }
 .child-list-one button{
    color: gray;
-   background-color: aqua;
+   background-color: #ffffff;
    border-top: none;
    border-bottom: none;
-   
+   border: 0px 1px 0px 1px solid rgb(180, 180, 180);
 }
+.child-list-one a{
+    color: gray;
+    background-color: #ffffff;
+    
+ }
+ .child-icon-1{
+    width: 300px;
+    height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .menu{
+    color: black;
+    display: none;
+ }
+ .select select{
+    width: 162px;
+    height: 27px;
+    border: none;
+    font-size: 19px;
+    color: #737779;
+ }
 .img-one{
     height: 500px;
     border: 2px solid black;
@@ -218,6 +242,7 @@ body{
     border: 2px solid black;
 
 }
+
 .child-5 h1{
     color: #007278;
     font-size: 32px;
@@ -336,6 +361,10 @@ body{
     justify-content: center;
     line-height: 60px;
 }
+#donations-child-1{
+    background-image: url(https://www.faysalbank.com/assets/images/Donation_2.webp);
+    background-size: cover;
+}
 .donations-child h5{
     font-size: 32px;
     
@@ -354,6 +383,12 @@ body{
     border: 2px solid gray;
     border-radius: 50px;
     background-color: aqua;
+}
+.urdu{
+    height: 50px;
+    border: 2px solid  black;
+    background-image: url(https://www.faysalbank.com/assets/images/ayat-faysal-desk.png);
+    background-size: cover !important;
 }
 .donat{
     width: 150px;
@@ -410,6 +445,9 @@ body{
     border: 2px solid black;
 
 }
+.child-four img{
+    width: 200px;
+}
 .name{
     height: 50px;
     border: 2px solid black;
@@ -438,7 +476,7 @@ body{
 }
 .cont-icon{
     display: grid;
-    grid-template-columns: repeat(4, 250px);
+    grid-template-columns: repeat(4, 280px);
     grid-template-rows: repeat(1, 100px);
     border: 2px solid black;
     justify-content: center;
@@ -446,12 +484,16 @@ body{
 }
 .child-five{
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .footer{
     display: grid;
-    grid-template-columns: 250px 250px 300px 350px;
-    grid-template-rows: repeat(1, 500px);
+    font-size: 9px;
+    grid-template-columns: 159px 159px 159px 240px 240px;
+    grid-template-rows: repeat(1, 350px);
     border: 2px solid black;
     gap: 10px;
     justify-content: center;
@@ -468,4 +510,11 @@ body{
 .child-six ul{
     list-style: none;
 
+}
+.footer-1{
+     display: none;
+    background-color: #007278;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
 }
