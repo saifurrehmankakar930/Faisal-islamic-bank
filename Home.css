@@ -65,6 +65,14 @@ body{
     background-color: #ffffff;
     
  }
+ .but-nav{
+    width: 80px;
+     height: 40px;
+     border: #007278 solid 1px;
+    background-color: #007278;
+    border-radius: 50px;
+    color: #ffffff;
+ }
  .child-icon-1{
     width: 300px;
     height: 60px;
@@ -83,10 +91,12 @@ body{
     border: none;
     font-size: 19px;
     color: #737779;
+    display: none;
+    justify-content: center;
+    align-items: center;
  }
 .img-one{
-    height: 500px;
-    border: 2px solid black;
+    
     display: grid;
     grid-template-columns: repeat(2, 600px);
     grid-template-rows: repeat(1, 500px);
@@ -96,7 +106,7 @@ body{
 
 .pic-1{
     
-    border: 2px solid black;
+    
 }
 .pic-1 p{
     color: lightslategray;
@@ -123,8 +133,6 @@ body{
 }
 .card-one{
     display: grid;
-    height: 483px;
-    border: 2px solid black;
     grid-template-columns: repeat(4, 310px);
     grid-template-rows: repeat(1, 482px);
     gap: 10px;
@@ -133,7 +141,6 @@ body{
 .child-two{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
     
 }
 .child-two h1{
@@ -154,8 +161,7 @@ body{
     margin-top: 90px;
 }
 .img-two{
-    border: 2px solid black;
-    height: 235px;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,16 +188,11 @@ body{
 }
 .card-two{
     display: grid;
-    height: 460px;
-    border: 2px solid black;
+    
     grid-template-columns: repeat(4, 310px);
     grid-template-rows: repeat(1, 450px);
     gap: 10px;
     justify-content: space-around;
-}
-.child-three{
-    
-    border: 2px solid black;  
 }
 .child-three a{
       text-decoration: none;
@@ -203,8 +204,7 @@ body{
     margin-left: 100px; 
 }
 .tex-1{
-    height: 250px;
-    border: 2px solid black;
+    
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -232,17 +232,11 @@ body{
 }
 .tex-2{
     display: grid;
-    height: 620px;
-    border: 2px solid black;
+   
     grid-template-columns: repeat(2, 610px);
     grid-template-rows: repeat(1, 600px);
     justify-content: space-around;
 }
-.child-5{
-    border: 2px solid black;
-
-}
-
 .child-5 h1{
     color: #007278;
     font-size: 32px;
@@ -250,15 +244,23 @@ body{
 
 }
 .tex-3{
-    height: 170px;
-    border: 2px solid black;
-
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.tex-3 h1{
+    font-size: 50px;
+    color: #007278;
+    line-height: 90px;
+}
+.tex-3 p{
+    line-height: 40px;
 }
 .tex-3 a{
     background-color: #ffffff;
 }
 .button-1{
-    border: 2px solid black;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -266,8 +268,12 @@ body{
     gap: 20px;
     background-color: #ffffff;
 }
+.button-1 a{
+    background-color: #ffffff;
+}
 .one-b-1{
     width: 100px;
+    border: #007278 solid 1px;
     background-color: #007278;
     height: 40px;
     border-radius: 50px;
@@ -286,30 +292,46 @@ body{
     background-color: aqua;
 }
 .card-three{
-    display: grid;
-    height: 460px;
-    border: 2px solid black;
+    display: grid;    
     grid-template-columns: repeat(4, 310px);
     grid-template-rows: repeat(1, 450px);
     gap: 10px;
     justify-content: space-around;
 }
 .child-three-one{
-    
-    border: 2px solid black;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.child-three-one p{
+    color: #525556;
+    font-size: 24px;
+}
+.child-three-one a{
+    text-decoration: none;
+    color: #525556;
+}
+.child-three-one button{
+    background-color: #007278;
+    width: 64px;
+    height: 24px;
+    font-size: 17px;
+    border-radius: 50px;
+}
+.child-three-one img{
+    width: 180px;
+    height: 180px;
 }
 .button-2{
     display: flex;
     height: 150px;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
-
 }
 .one-b-1-1{
     width: 100px;
-    background-color: rgb(32, 2, 54);
+    background-color: #007278;
     height: 40px;
     border-radius: 50px;
     color: white;
@@ -319,32 +341,58 @@ body{
     color: white;
 }
 .quick{
-    border: 2px solid black;
-    height: 100px;
+   
     font-size: 42px;
-    color: blueviolet;
+    color: #007278;
     display: flex;
     justify-content: center;
 }
 .link{
     display: grid;
-    height: 260px;
-    border: 2px solid black;
-    grid-template-columns: repeat(6, 150px);
+    grid-template-columns: repeat(6, 190px);
     grid-template-rows: repeat(1, 250px);
     gap: 10px;
     justify-content: center;
-    gap: 30px;
+}
+.link button{
+    border: none;
 }
 .two-b{
-    background-color: aqua;
-    border: 2px solid black;
-    
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two-b:hover{
+    background-color: #007278;
+    border-radius: 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two-b button :hover{
+    background-color: #007278;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two-b img{
+    width: 64px;
+    height: 64px;
 }
 .two-b a{
     text-decoration: none;
-    background-color: aqua;
-    color: black;
+    background-color: #ffffff;
+    color: #525556;
+    line-height: 40px;
+    font-size: 18px;
+}
+.two-b button{
+    border: none;
 }
 .two-b button{
     border: none;
@@ -353,11 +401,9 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 600px);
     grid-template-rows: repeat(1, 450px);
-    border: 2px solid black;
     justify-content: center;
 }
 .donations-child{
-    border: 2px solid black;
     justify-content: center;
     line-height: 60px;
 }
@@ -385,8 +431,7 @@ body{
     background-color: aqua;
 }
 .urdu{
-    height: 50px;
-    border: 2px solid  black;
+    
     background-image: url(https://www.faysalbank.com/assets/images/ayat-faysal-desk.png);
     background-size: cover !important;
 }
@@ -398,8 +443,7 @@ body{
     background-color: indigo;
 }
 .tex-4{
-    height: 250px ;
-    border: 2px solid  black;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -407,17 +451,25 @@ body{
 }
 .tex-child{
     display: grid;
-    grid-template-columns: repeat(3, 150px);
-    border: 2px solid  black;
-    grid-template-rows: repeat(1, 100px);
+    grid-template-columns: repeat(3, 135px);
+    grid-template-rows: repeat(1, 155px);
     justify-content: space-around;
 }
 .tex-child-1{
-    border: 2px solid  black;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tex-child-1 img{
+    width: 100px;
+    height: 100px;
+    padding: 6px 20px;
+}
+#Home-Finance{
+    color: #ffffff;
 }
 .cont-text{
-    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -427,30 +479,44 @@ body{
     font-size: 48px;
 }
 .cont-img{
-    border: 2px solid  black;
     height: 500px;
     background-image: url(https://www.faysalbank.com/assets/images/Loan-bg.png);
     background-size: cover;
 }
 
 .card-three-1{
-    display: grid;
-    
-    border: 2px solid black;
+    display: grid; 
     grid-template-columns: repeat(6, 200px);
     grid-template-rows: repeat(1, 290px); 
     justify-content: space-around;
 }
 .child-four{
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .child-four img{
-    width: 200px;
+    width: 195px;
+    border-radius: 20px;
+}
+.child-four p{
+    color: #2d2968;
+    font-size: 18px;
+}
+.child-four a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.child-four button{
+    width: 107px;
+    height: 34px;
+    background-color: #007278;
+    border-radius: 50px;
+    border: #007278 solid 1px;
 }
 .name{
-    height: 50px;
-    border: 2px solid black;
+    
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -463,8 +529,7 @@ body{
     color: gray;
 }
 .stil{
-    height: 200px;
-    border: 2px solid black;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -478,12 +543,10 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 280px);
     grid-template-rows: repeat(1, 100px);
-    border: 2px solid black;
     justify-content: center;
     gap: 20px;
 }
 .child-five{
-    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -494,12 +557,10 @@ body{
     font-size: 9px;
     grid-template-columns: 159px 159px 159px 240px 240px;
     grid-template-rows: repeat(1, 350px);
-    border: 2px solid black;
     gap: 10px;
     justify-content: center;
 }
 .child-six{
-    border: 2px solid black;
 
 }
 .child-six a{
@@ -517,4 +578,571 @@ body{
     display: none;
     justify-content: space-around;
     align-items: center;
+}
+.dropdown-container {
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  label {
+    display: flex;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  select {
+    width: 0px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0,123,255,0.5);
+  }
+@media (max-width: 768px) {
+    *{
+        padding: 0%;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: #ffffff;
+        font-family: "Inter", sans-serif;
+        /* font-optical-sizing: auto; */
+        font-style: normal;
+    }
+    .nav-one{
+        display: none;
+    }
+    .nav-two{
+        margin-top: 1px;
+        width: 100%;
+       height: 80px;
+       background-color: #ffffff;
+       
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       position: fixed;
+       text-align: center;
+       margin-top: 40px;
+    }
+    .child-list-one{
+        display: none;
+    }
+    .child-list-one button{
+        display: none;
+       
+    }
+    .child-list-one{
+        display: none;
+     }
+     .child-icon-1{
+        display: none;
+     }
+     .menu{
+        color: black;
+        display: flex;
+     }
+     .select select{
+        width: 162px;
+        height: 27px;
+        border: none;
+        font-size: 19px;
+        color: #737779;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+    .img-one{
+        
+        display: grid;
+        grid-template-columns: repeat(1, 600px);
+        grid-template-rows: repeat(2, 500px);
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    
+    .pic-1 p{
+        color: lightslategray;
+        line-height: 70px;
+    }
+    .pic-1 button{
+        width: 90px;
+        height: 35px;
+        background-color: #007278;
+        border: 2px solid #007278;
+        border-radius: 50px;
+        color: #ffffff;
+    }
+    .tex-one{
+        margin-top: 200px;
+        color: #007278;
+        font-size: 50px;
+        font-weight: 0.001;
+    }
+    .tex-two{
+        font-size: 19px;
+        font-weight: 0.001;
+        
+    }
+    .card-one{
+        display: grid;
+        
+       
+        grid-template-columns: repeat(2, 310px);
+        grid-template-rows: repeat(2, 482px);
+        gap: 10px;
+        justify-content: space-around;
+    }
+    .child-two{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .child-two h1{
+        color: #007278;
+        font-size: 32px;
+        margin-top: 90px;
+    }
+    .child-two p{
+        color: grey;
+    }
+    .child-two button{
+        width: 150px;
+        height: 35px;
+        background-color: #007278;
+        border: 2px solid #007278;
+        border-radius: 50px;
+        color: #ffffff;
+        margin-top: 90px;
+    }
+    .img-two{
+        
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-two h1{
+        color: #007278;
+        font-size: 50px;
+    }
+    .img-two a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .img-two p{
+        color: gray;
+    }
+    .img-two button{
+        width: 90px;
+        height: 35px;
+        background-color: #007278;
+        border: 2px solid #007278;
+        border-radius: 50px;
+        color: #ffffff;
+    }
+    .card-two{
+        display: grid;
+        
+        grid-template-columns: repeat(2, 310px);
+        grid-template-rows: repeat(2, 450px);
+        gap: 10px;
+        justify-content: space-around;
+    }
+   
+    
+    .child-three a{
+          text-decoration: none;
+          margin-top: 70px;
+          z-index: 1;
+    }
+    .child-three h2{
+        margin-top: 70px;
+        margin-left: 100px; 
+    }
+    .tex-1{
+       
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    .p-1 {
+        margin-top: 90px;
+    }
+    .tex-1 h1 {
+        color: #007278;
+        font-size: 50px;
+    }
+    .tex-1 a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .tex-1 button{
+        width: 150px;
+        height: 35px;
+        background-color: #007278;
+        border: 2px solid #007278;
+        border-radius: 50px;
+        color: #ffffff;
+    }
+    .tex-2{
+        display: grid;
+        
+        grid-template-columns: repeat(1, 610px);
+        grid-template-rows: repeat(2, 600px);
+        justify-content: space-around;
+    }
+    
+    .child-5 h1{
+        color: #007278;
+        font-size: 32px;
+        margin-top: 100px;
+    
+    }
+    .tex-3 a{
+        background-color: #ffffff;
+    }
+    .button-1{
+        border: 2px solid black;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: #ffffff;
+    }
+    .one-b-1{
+        width: 100px;
+        background-color: #007278;
+        height: 40px;
+        border-radius: 50px;
+        color: white;
+    }
+    .one-b-1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .one-b a{
+        text-decoration: none;
+        color: black;
+    }
+    .one-b{
+        border: none;
+        background-color: aqua;
+    }
+    .card-three{
+        display: grid;
+       
+        grid-template-columns: repeat(2, 310px);
+        grid-template-rows: repeat(2, 450px);
+        gap: 10px;
+        justify-content: space-around;
+    }
+    .child-three-one{
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .child-three-one p{
+        color: #525556;
+        font-size: 24px;
+    }
+    .child-three-one a{
+        text-decoration: none;
+        color: #525556;
+    }
+    .child-three-one button{
+        background-color: #007278;
+        width: 64px;
+        height: 24px;
+        font-size: 17px;
+        border-radius: 50px;
+    }
+    .child-three-one img{
+        width: 180px;
+        height: 180px;
+    }
+    .button-2{
+        display: flex;
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .one-b-1-1{
+        width: 100px;
+        background-color: rgb(32, 2, 54);
+        height: 40px;
+        border-radius: 50px;
+        color: white;
+    }
+    .one-b-1-1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .quick{
+        
+        font-size: 42px;
+        color: #007278;
+        display: flex;
+        justify-content: center;
+    }
+    .link{
+        display: grid;
+        
+        grid-template-columns: repeat(3, 190px);
+        grid-template-rows: repeat(3, 250px);
+        gap: 10px;
+        justify-content: center;
+    }
+    .link{
+        border: none;
+    }
+    .two-b{
+        background-color: #ffffff;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .two-b:hover{
+        background-color: #007278;
+        border-radius: 20px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .two-b button :hover{
+        background-color: #007278;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .two-b img{
+        width: 64px;
+        height: 64px;
+    }
+    .two-b a{
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #525556;
+        line-height: 40px;
+        font-size: 18px;
+    }
+    .two-b button{
+        border: none;
+    }
+    .two-b button{
+        border: none;
+    }
+    .donations{
+        display: grid;
+        grid-template-columns: repeat(1, 600px);
+        grid-template-rows: repeat(2, 450px);
+        
+        justify-content: center;
+    }
+    .donations-child{
+        
+        justify-content: center;
+        line-height: 60px;
+    }
+    #donations-child-1{
+        background-image: url(https://www.faysalbank.com/assets/images/Donation_2.webp);
+        background-size: cover;
+    }
+    .donations-child h5{
+        font-size: 32px;
+        
+    }
+    .donations-child h1{
+        font-size: 52px;
+        color: blueviolet;
+    }
+    .donations-child h5{
+        margin-top: 50px;
+    }
+    .WhatsApp{
+        width: 200px;
+        height: 40px;
+        color: gray;
+        border: 2px solid gray;
+        border-radius: 50px;
+        background-color: aqua;
+    }
+    .urdu{
+        height: 50px;
+        
+        background-image: url(https://www.faysalbank.com/assets/images/ayat-faysal-desk.png);
+        background-size: cover !important;
+    }
+    .donat{
+        width: 150px;
+        height: 40px;
+        color: white;
+        border-radius: 50px;
+        background-color: indigo;
+    }
+    .tex-4{
+        
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tex-child{
+        display: grid;
+        grid-template-columns: repeat(3, 135px);
+        
+        grid-template-rows: repeat(1, 155px);
+        justify-content: space-around;
+    }
+    .tex-child-1{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tex-child-1 img{
+        width: 100px;
+        height: 100px;
+        padding: 6px 20px;
+    }
+    #Home-Finance{
+        color: #ffffff;
+    }
+    .cont-text{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .cont-text h1{
+        color: blueviolet;
+        font-size: 48px;
+    }
+    .cont-img{
+        
+        height: 500px;
+        background-image: url(https://www.faysalbank.com/assets/images/Loan-bg.png);
+        background-size: cover;
+    }
+    
+    .card-three-1{
+        display: grid;
+        
+        
+        grid-template-columns: repeat(3, 200px);
+        grid-template-rows: repeat(3, 290px); 
+        justify-content: space-around;
+    }
+    .child-four{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .child-four img{
+        width: 195px;
+        border-radius: 20px;
+    }
+    .child-four p{
+        color: #2d2968;
+        font-size: 18px;
+    }
+    .child-four a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .child-four button{
+        width: 107px;
+        height: 34px;
+        background-color: #007278;
+        border-radius: 50px;
+        border: #007278 solid 1px;
+    }
+    .name{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .name span{
+        display: ;
+    }
+    .name a{
+        text-decoration: none;
+        color: gray;
+    }
+    .stil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .stil h1{
+         font-size: 52px;
+         color: blueviolet;
+    }
+    .cont-icon{
+        display: grid;
+        grid-template-columns: repeat(2, 280px);
+        grid-template-rows: repeat(2, 100px);
+        justify-content: center;
+        gap: 20px;
+    }
+    .child-five{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .footer{
+        display: grid;
+        font-size: 9px;
+        grid-template-columns: repeat(1, 350px);
+        grid-template-rows: 359px 359px 359px 340px 340px ;
+        gap: 10px;
+        justify-content: center;
+    }
+    .child-six{
+    
+    }
+    .child-six a{
+        text-decoration: none;
+        color: gray;
+        line-height: 30px;
+    }
+    .child-six ul{
+        list-style: none;
+    
+    }
+    .footer-1{
+         display: flex;
+        background-color: #007278;
+        margin-bottom: 1px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
 }
