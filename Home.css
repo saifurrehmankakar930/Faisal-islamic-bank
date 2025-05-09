@@ -1,0 +1,471 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    font-family: "Inter", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-style: normal;
+}
+.nav-one{
+    background-color: darkslateblue;
+    height: 40px;
+    width: 100%;
+    display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     position: fixed;
+     z-index: 1;
+}
+.child-one ul{
+    list-style: none;
+    background-color: darkslateblue;
+    display: flex;
+    color: white;
+    height: 40px;
+    gap: 10px;
+    align-items: center;
+}
+.child-one a{
+    text-decoration:  none;
+    background-color: darkslateblue;
+    display: flex;
+    color: white;
+    height: 40px;
+    gap: 10px;
+    align-items: center;
+}
+.nav-two{
+    width: 100%;
+   height: 80px;
+   background-color: cadetblue;
+   border: 2px solid black;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: fixed;
+   text-align: center;
+   margin-top: 40px;
+}
+.child-list-one{
+    align-items: center;
+}
+.child-list-one button{
+   color: gray;
+   background-color: aqua;
+   border-top: none;
+   border-bottom: none;
+   
+}
+.img-one{
+    height: 500px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(1, 500px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.pic-1{
+    
+    border: 2px solid black;
+}
+.pic-1 p{
+    color: lightslategray;
+    line-height: 70px;
+}
+.pic-1 button{
+    width: 90px;
+    height: 35px;
+    background-color: #007278;
+    border: 2px solid #007278;
+    border-radius: 50px;
+    color: #ffffff;
+}
+.tex-one{
+    margin-top: 200px;
+    color: #007278;
+    font-size: 50px;
+    font-weight: 0.001;
+}
+.tex-two{
+    font-size: 19px;
+    font-weight: 0.001;
+    
+}
+.card-one{
+    display: grid;
+    height: 483px;
+    border: 2px solid black;
+    grid-template-columns: repeat(4, 310px);
+    grid-template-rows: repeat(1, 482px);
+    gap: 10px;
+    justify-content: space-around;
+}
+.child-two{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    
+}
+.child-two h1{
+    color: #007278;
+    font-size: 32px;
+    margin-top: 90px;
+}
+.child-two p{
+    color: grey;
+}
+.child-two button{
+    width: 150px;
+    height: 35px;
+    background-color: #007278;
+    border: 2px solid #007278;
+    border-radius: 50px;
+    color: #ffffff;
+    margin-top: 90px;
+}
+.img-two{
+    border: 2px solid black;
+    height: 235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-two h1{
+    color: #007278;
+    font-size: 50px;
+}
+.img-two a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.img-two p{
+    color: gray;
+}
+.img-two button{
+    width: 90px;
+    height: 35px;
+    background-color: #007278;
+    border: 2px solid #007278;
+    border-radius: 50px;
+    color: #ffffff;
+}
+.card-two{
+    display: grid;
+    height: 460px;
+    border: 2px solid black;
+    grid-template-columns: repeat(4, 310px);
+    grid-template-rows: repeat(1, 450px);
+    gap: 10px;
+    justify-content: space-around;
+}
+.child-three{
+    
+    border: 2px solid black;  
+}
+.child-three a{
+      text-decoration: none;
+      margin-top: 70px;
+      z-index: 1;
+}
+.child-three h2{
+    margin-top: 70px;
+    margin-left: 100px; 
+}
+.tex-1{
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.p-1 {
+    margin-top: 90px;
+}
+.tex-1 h1 {
+    color: #007278;
+    font-size: 50px;
+}
+.tex-1 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.tex-1 button{
+    width: 150px;
+    height: 35px;
+    background-color: #007278;
+    border: 2px solid #007278;
+    border-radius: 50px;
+    color: #ffffff;
+}
+.tex-2{
+    display: grid;
+    height: 620px;
+    border: 2px solid black;
+    grid-template-columns: repeat(2, 610px);
+    grid-template-rows: repeat(1, 600px);
+    justify-content: space-around;
+}
+.child-5{
+    border: 2px solid black;
+
+}
+.child-5 h1{
+    color: #007278;
+    font-size: 32px;
+    margin-top: 100px;
+
+}
+.tex-3{
+    height: 170px;
+    border: 2px solid black;
+
+}
+.tex-3 a{
+    background-color: #ffffff;
+}
+.button-1{
+    border: 2px solid black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #ffffff;
+}
+.one-b-1{
+    width: 100px;
+    background-color: #007278;
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+}
+.one-b-1 a{
+    text-decoration: none;
+    color: white;
+}
+.one-b a{
+    text-decoration: none;
+    color: black;
+}
+.one-b{
+    border: none;
+    background-color: aqua;
+}
+.card-three{
+    display: grid;
+    height: 460px;
+    border: 2px solid black;
+    grid-template-columns: repeat(4, 310px);
+    grid-template-rows: repeat(1, 450px);
+    gap: 10px;
+    justify-content: space-around;
+}
+.child-three-one{
+    
+    border: 2px solid black;
+    
+}
+.button-2{
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+}
+.one-b-1-1{
+    width: 100px;
+    background-color: rgb(32, 2, 54);
+    height: 40px;
+    border-radius: 50px;
+    color: white;
+}
+.one-b-1-1 a{
+    text-decoration: none;
+    color: white;
+}
+.quick{
+    border: 2px solid black;
+    height: 100px;
+    font-size: 42px;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+.link{
+    display: grid;
+    height: 260px;
+    border: 2px solid black;
+    grid-template-columns: repeat(6, 150px);
+    grid-template-rows: repeat(1, 250px);
+    gap: 10px;
+    justify-content: center;
+    gap: 30px;
+}
+.two-b{
+    background-color: aqua;
+    border: 2px solid black;
+    
+}
+.two-b a{
+    text-decoration: none;
+    background-color: aqua;
+    color: black;
+}
+.two-b button{
+    border: none;
+}
+.donations{
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(1, 450px);
+    border: 2px solid black;
+    justify-content: center;
+}
+.donations-child{
+    border: 2px solid black;
+    justify-content: center;
+    line-height: 60px;
+}
+.donations-child h5{
+    font-size: 32px;
+    
+}
+.donations-child h1{
+    font-size: 52px;
+    color: blueviolet;
+}
+.donations-child h5{
+    margin-top: 50px;
+}
+.WhatsApp{
+    width: 200px;
+    height: 40px;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 50px;
+    background-color: aqua;
+}
+.donat{
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 50px;
+    background-color: indigo;
+}
+.tex-4{
+    height: 250px ;
+    border: 2px solid  black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tex-child{
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    border: 2px solid  black;
+    grid-template-rows: repeat(1, 100px);
+    justify-content: space-around;
+}
+.tex-child-1{
+    border: 2px solid  black;
+    
+}
+.cont-text{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-text h1{
+    color: blueviolet;
+    font-size: 48px;
+}
+.cont-img{
+    border: 2px solid  black;
+    height: 500px;
+    background-image: url(https://www.faysalbank.com/assets/images/Loan-bg.png);
+    background-size: cover;
+}
+
+.card-three-1{
+    display: grid;
+    
+    border: 2px solid black;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(1, 290px); 
+    justify-content: space-around;
+}
+.child-four{
+    border: 2px solid black;
+
+}
+.name{
+    height: 50px;
+    border: 2px solid black;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.name span{
+    color: black;
+}
+.name a{
+    text-decoration: none;
+    color: gray;
+}
+.stil{
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.stil h1{
+     font-size: 52px;
+     color: blueviolet;
+}
+.cont-icon{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(1, 100px);
+    border: 2px solid black;
+    justify-content: center;
+    gap: 20px;
+}
+.child-five{
+    border: 2px solid black;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 250px 250px 300px 350px;
+    grid-template-rows: repeat(1, 500px);
+    border: 2px solid black;
+    gap: 10px;
+    justify-content: center;
+}
+.child-six{
+    border: 2px solid black;
+
+}
+.child-six a{
+    text-decoration: none;
+    color: gray;
+    line-height: 30px;
+}
+.child-six ul{
+    list-style: none;
+
+}
