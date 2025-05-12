@@ -616,6 +616,7 @@ body{
         /* font-optical-sizing: auto; */
         font-style: normal;
     }
+
     .nav-one{
         display: none;
     }
@@ -643,6 +644,18 @@ body{
         display: none;
      }
      .child-icon-1{
+        display: none;
+     }
+     #icon-nav-one{
+        display: none;
+     }
+     #icon-nav-tow{
+        display: none;
+     }
+     #icon-nav-three{
+        display: none;
+     }
+     #button-nav{
         display: none;
      }
      .menu{
