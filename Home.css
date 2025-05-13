@@ -137,11 +137,11 @@ body{
     grid-template-rows: repeat(1, 482px);
     gap: 10px;
     justify-content: space-around;
+   
 }
 .child-two{
     display: flex;
     flex-direction: column;
-    
 }
 .child-two h1{
     color: #007278;
@@ -402,6 +402,7 @@ body{
     grid-template-columns: repeat(2, 600px);
     grid-template-rows: repeat(1, 450px);
     justify-content: center;
+    background-color: rgba(233, 231, 231, 0.30);
 }
 .donations-child{
     justify-content: center;
@@ -494,6 +495,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(233, 231, 231, 0.30);
+    border-radius: 20px;
 
 }
 .child-four img{
@@ -560,9 +563,7 @@ body{
     gap: 10px;
     justify-content: center;
 }
-.child-six{
 
-}
 .child-six a{
     text-decoration: none;
     color: gray;
@@ -609,6 +610,7 @@ body{
         padding: 0%;
         margin: 0;
         box-sizing: border-box;
+        
     }
     body{
         background-color: #ffffff;
@@ -616,7 +618,9 @@ body{
         /* font-optical-sizing: auto; */
         font-style: normal;
     }
-
+    h1{
+        font-size: 11px;
+    }
     .nav-one{
         display: none;
     }
@@ -631,7 +635,7 @@ body{
        align-items: center;
        position: fixed;
        text-align: center;
-       margin-top: 40px;
+       margin-top: 0px;
     }
     .child-list-one{
         display: none;
@@ -664,13 +668,19 @@ body{
      }
      .select select{
         width: 162px;
-        height: 27px;
+        height: 50px;
         border: none;
         font-size: 19px;
         color: #737779;
         display: flex;
         justify-content: center;
         align-items: center;
+     }
+     #select-2{
+        display: flex;
+     }
+     #select-1{
+        display: flex;
      }
     .img-one{
         
@@ -1003,7 +1013,7 @@ body{
         background-color: aqua;
     }
     .urdu{
-        height: 50px;
+        height: 200px;
         
         background-image: url(https://www.faysalbank.com/assets/images/ayat-faysal-desk.png);
         background-size: cover !important;
@@ -1053,13 +1063,13 @@ body{
     }
     .cont-text h1{
         color: blueviolet;
-        font-size: 48px;
+        font-size: 28px;
     }
     .cont-img{
         
-        height: 500px;
+        height: 250px;
         background-image: url(https://www.faysalbank.com/assets/images/Loan-bg.png);
-        background-size: cover;
+        background-size: cover !important;
     }
     
     .card-three-1{
@@ -1082,7 +1092,7 @@ body{
     }
     .child-four p{
         color: #2d2968;
-        font-size: 18px;
+        font-size: 13px;
     }
     .child-four a{
         text-decoration: none;
@@ -1150,12 +1160,15 @@ body{
         list-style: none;
     
     }
+
     .footer-1{
-         display: flex;
+        display: flex;
+        
         background-color: #007278;
-        margin-bottom: 1px;
+        
         justify-content: space-around;
         align-items: center;
     }
+    
     
 }
